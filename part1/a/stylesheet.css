@@ -1,0 +1,32 @@
+/*
+See index.html for instructions.
+*/
+
+.box {
+	box-sizing: border-box;
+	width: 150px;
+	outline: 3px solid;
+}
+
+.box.one {
+	float: left;
+	outline-color: #0030e2;
+}
+
+.box.two {
+	float: right;
+	outline-color: #aaaaa8;
+}
+
+.box.three {
+	margin: auto;
+	outline-color: #f6a617;
+}
+
+.clear {
+	clear: both;
+}
+
+img {
+	display: block;
+}

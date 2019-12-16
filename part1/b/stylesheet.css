@@ -1,0 +1,54 @@
+/*
+See index.html for instructions.
+*/
+
+.box-outer {
+	position: relative;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+}
+
+.box-outer.one {
+	background-color: #808080;
+}
+
+.box-outer.two {
+	background-color: #000000;
+}
+
+.box-outer.three {
+	background-color: #0037ff;
+}
+
+.box-outer.four {
+	background-color: #801082;
+}
+
+
+.box-inner {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+}
+
+.box-inner.one {
+	background-color: #ffa600;
+	right: 0;
+}
+
+.box-inner.two {
+	background-color: #fffb01;
+	right: 0;
+	bottom: 0;
+}
+
+.box-inner.three {
+	background-color: #028000;
+	bottom: 0;
+}
+
+.box-inner.four {
+	background-color: #febfcb;
+}
